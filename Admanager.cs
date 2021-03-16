@@ -10,9 +10,7 @@ using GoogleMobileAds.Api;
 
 public class Admanager : MonoBehaviour
 {
-    public static Admanager instance;
-
-    #region Private Variables
+    public static Admanager   #region Private Variables
     private BannerView bannerView;
     private InterstitialAd interstitial;
     public RewardedAd rewardedAd;
